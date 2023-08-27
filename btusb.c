@@ -26,7 +26,7 @@
 #include "btbcm.h"
 #include "btrtl.h"
 
-#define VERSION "0.9"
+#define VERSION "0.91"
 
 static bool disable_scofix;
 static bool force_scofix;
