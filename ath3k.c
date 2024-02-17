@@ -16,7 +16,7 @@
 #include <asm/unaligned.h>
 #include <net/bluetooth/bluetooth.h>
 
-#define VERSION "1.1"
+#define VERSION "1.2"
 #define ATH3K_FIRMWARE	"ath3k-1.fw"
 
 #define ATH3K_DNLOAD				0x01
