@@ -404,6 +404,8 @@ static const struct usb_device_id blacklist_table[] = {
 	  .driver_info = BTUSB_IGNORE },
 
 	/* Realtek 8822CE Bluetooth devices */
+	{ USB_DEVICE(0x0bda, 0xb008), .driver_info = BTUSB_REALTEK |
+						     BTUSB_WIDEBAND_SPEECH },
 	{ USB_DEVICE(0x0bda, 0xb00c), .driver_info = BTUSB_REALTEK |
 						     BTUSB_WIDEBAND_SPEECH },
 	{ USB_DEVICE(0x0b05, 0x18eb), .driver_info = BTUSB_REALTEK |
